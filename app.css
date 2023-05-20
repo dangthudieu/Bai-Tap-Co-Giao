@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sum{
+    margin: 0px;
+}
+.background-header{
+
+    height: auto;
+    width: 100%;
+}
+.menu{
+    background-color: rgb(49, 54, 78);
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    list-style: none; 
+    margin-right: 10px;
+}
+.menu a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.menu ul ul {
+    display: none;
+    position: absolute;
+}
+.menu ul li:hover >ul{
+    display: block;
+}
+.menu ul ul li {
+    background-color:  rgb(49, 54, 78);
+    display: list-item;
+    position: relative;
+  }
+  
+.menu a:hover, nav ul ul ul a {
+    background-color:  rgb(23, 26, 39);
+  }
+  .banner{
+    padding: 15px;
+  }
+  .banner>img{
+    width: 100%;
+    position: relative;
+  }
+  .notes-banner {
+    position: absolute;
+    top: 170%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    width: 300px;
+}
+.notes-banner p {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.notes-banner>input {
+    background-color: rgb(187, 181, 181);
+    border-radius: 46px;
+    height: 30px;
+    width: 187px;
+    padding: 5px 10px;
+}
+.notes-banner>button {
+    color: #fff;
+    background-color: rgb(176 165 195);
+    border-radius: 20px;
+    width: 70px;
+    height: 35px;
+    font-family: botoro;
+}
+.intro>img {
+    float: left;
+    border-radius: 20px;
+    width: 300px;
+}
+.intro {
+    padding: 5px 40px;
+    height: 300px;
+}
+.intro>p {
+    text-align: inherit;
+    padding: 28px 17px 0px 48px;
+    display: flex;
+}
+footer {
+    color: #fff;
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(145, 156, 158);
+    text-align: center;
+    font-size: 14px;
+}
+footer>h3{
+    padding-top: 5px ;
+}
